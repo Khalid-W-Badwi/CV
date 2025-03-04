@@ -1,0 +1,190 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #f4f4f9 0%, #ffffff 100%);
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Contact Information */
+.contact-info {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-info h1 {
+    font-size: 2.5em;
+    color: #1a2a6c;
+}
+
+.contact-info p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.contact-info a {
+    color: #2ecc71; /* Soft Green */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+.about {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.about h2 {
+    font-size: 2em;
+    color: #1a2a6c;
+}
+
+.about p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+.skills {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 1.1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Projects Section */
+.projects {
+    margin-top: 40px;
+}
+
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    color: #1a2a6c;
+    font-size: 1.5em;
+}
+
+.project-card p {
+    color: #555;
+    font-size: 1.1em;
+}
+
+/* Certifications Section */
+.certifications {
+    margin-top: 40px;
+}
+
+.certifications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.certifications li {
+    font-size: 1.1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Education Section */
+.education {
+    margin-top: 40px;
+}
+
+.education p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Passion Section */
+.passion {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.passion h2 {
+    font-size: 2em;
+    color: #1a2a6c;
+}
+
+.passion p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Additional Info Section */
+.additional-info {
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.additional-info h2 {
+    font-size: 2em;
+    color: #1a2a6c;
+}
+
+.additional-info p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Button */
+button {
+    background-color: #2ecc71; /* Soft Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #27ae60; /* Slightly darker green */
+}
