@@ -112,6 +112,12 @@ body {
     margin-top: 40px;
 }
 
+.certifications a {
+    color: #323eca; /* Soft Green */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
 .certifications ul {
     list-style-type: none;
     padding: 0;
